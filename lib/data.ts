@@ -100,7 +100,7 @@ export const projectsData = [
   {
     title: "Dr. Michel Adib Gym Management App",
     description:
-      "I worked on a gym and healthy meal management system during my time at the company. I built a landing page and an admin dashboard that provides features like tracking the number of users, managing exercises and meals (add, edit, delete, activate, or deactivate), and much more. https://drmicheladib.com",
+      "I worked on a gym and healthy meal management system during my time at the company. I built a landing page and an admin dashboard that provides features like tracking the number of users, managing exercises and meals (add, edit, delete, activate, or deactivate), and much more.",
     tags: ["React", "Tailwind css", "Laravel", "Framer-Motion"],
     imageUrl: "./assets/images/drmicheladib.png", // Updated path
     link: "https://drmicheladib.com",

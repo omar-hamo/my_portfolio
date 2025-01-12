@@ -3,6 +3,8 @@ const nextConfig = {
   basePath: "/my_portfolio", // استبدل بـ اسم المستودع الخاص بك
   assetPrefix: "/my_portfolio/", // استبدل بـ اسم المستودع الخاص بك
   trailingSlash: true, // يضيف شرطة مائلة في النهاية
+  output: "export",
+
   images: {
     remotePatterns: [
       {

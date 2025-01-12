@@ -103,6 +103,7 @@ export const projectsData = [
       "I worked on a gym and healthy meal management system during my time at the company. I built a landing page and an admin dashboard that provides features like tracking the number of users, managing exercises and meals (add, edit, delete, activate, or deactivate), and much more. https://drmicheladib.com",
     tags: ["React", "Tailwind css", "Laravel", "Framer-Motion"],
     imageUrl: "./assets/images/drmicheladib.png", // Updated path
+    link: "https://drmicheladib.com",
   },
   {
     title: "Proshop",
@@ -117,6 +118,7 @@ export const projectsData = [
       "Bootstrap",
     ],
     imageUrl: "./assets/images/proshop.png", // Updated path
+    link: "",
   },
   {
     title: "Real Estate",
@@ -131,6 +133,7 @@ export const projectsData = [
       "Geodjango",
     ],
     imageUrl: "./assets/images/real-estate.png", // Updated path
+    link: "",
   },
   {
     title: "Instagram-Clone",
@@ -138,6 +141,7 @@ export const projectsData = [
       "I developed a professional Instagram-inspired platform that allows users to sign up, log in, and share photos with captions. The platform includes core social features such as liking posts, leaving comments, following other users, and updating profile information, providing an engaging and interactive user experience.",
     tags: ["React", "Firebase", "Framer-Motion", "Chakra-UI", "Zustand"],
     imageUrl: "./assets/images/instagram.png", // Updated path
+    link: "",
   },
   {
     title: "shopper",
@@ -145,6 +149,7 @@ export const projectsData = [
       "I developed a fully functional e-commerce platform where users can register, log in, and add products to their cart. The platform includes an admin panel that enables administrators to manage users and products by adding, updating, or deleting them, ensuring efficient control over the system.",
     tags: ["React", "Firebase", "Redux Toolkit", "Reactstrap", "Framer-Motion"],
     imageUrl: "./assets/images/shoper.png", // Updated path
+    link: "",
   },
 ] as const;
 

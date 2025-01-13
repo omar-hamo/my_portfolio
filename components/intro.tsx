@@ -102,7 +102,7 @@ export default function Intro() {
         {/* Download CV Button */}
         <a
           className="group bg-white px-9 py-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black dark:bg-white/10"
-          href="/assets/omar_hamo_cv.pdf"
+          href="./assets/omar_hamo_cv.pdf"
           download
         >
           Download CV{" "}

@@ -13,8 +13,9 @@ import whatsappIcon from "../public/assets/images/WhatsApp.svg";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: "Omar Hamo Portfolio",
+  description:
+    "Omar Hamo is a full-stack developer with 3 years of experience.",
 };
 
 export default function RootLayout({

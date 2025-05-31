@@ -12,6 +12,7 @@ const nextConfig = {
         hostname: "images.unsplash.com",
       },
     ],
+    unoptimized: true,
   },
   // Remove or comment out the experimental block
   // experimental: {

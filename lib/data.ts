@@ -106,6 +106,24 @@ export const projectsData = [
     link: "https://drmicheladib.com",
   },
   {
+    title: "LMS - Learning Management System",
+    description:
+      "I built a comprehensive learning platform similar to Udemy or Coursera. Instructors can sign up, create courses with title, level, price, and set coupon discounts (10%, 20%, or 30%) for selected courses. An OTP system handles password recovery. Students preview a free section before purchasing via PayPal or Stripe. Features include user profiles, in-course chat, and course reviews with star ratings.",
+    tags: [
+      "React",
+      "Django",
+      "PostgreSQL",
+      "Redux Toolkit",
+      "Bootstrap",
+      "PayPal",
+      "Stripe",
+      "JWT",
+    ],
+    imageUrl: "./assets/images/LMS.png",
+    link: "",
+  },
+
+  {
     title: "Proshop",
     description:
       "I built an E-commerce platform where users can sign up and log in, add products to their cart, and make purchases using PayPal. The platform includes features like inventory management (out-of-stock notifications), and an admin dashboard where the admin can manage users (add, delete, or view), manage products (add, delete, or edit), and track orders to monitor their delivery status, along with many other features.",
@@ -167,10 +185,12 @@ export const skillsData = [
   "Tailwind CSS",
   "Material UI",
   "Axios",
+  "JWT",
   "Redux Toolkit",
   "I18next",
   "Formik",
   "Framer Motion",
   "Zustand",
   "Paypal",
+  "Stripe",
 ] as const;

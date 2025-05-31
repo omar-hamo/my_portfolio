@@ -7,6 +7,9 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
+import Image from "next/image";
+import whatsappIcon from "../public/assets/images/WhatsApp.svg";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -31,6 +34,29 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <a
+              href="https://wa.me/963944974828"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+            fixed bottom-4 right-4 z-50
+            flex items-center space-x-3
+            dark:bg-white bg-black bg-opacity-90 backdrop-blur-md
+            px-4 py-2 rounded-full shadow-lg
+            hover:shadow-xl transition-shadow
+          "
+            >
+              <Image
+                src={whatsappIcon}
+                alt="WhatsApp"
+                width={40}
+                height={40}
+                className="!bg-transparent"
+              />
+              <span className="text-sm font-medium dark:text-gray-800 text-white whitespace-nowrap">
+                Need a website?<div>I am here to help!</div>
+              </span>
+            </a>
             <Footer />
 
             <Toaster position="top-right" />
